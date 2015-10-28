@@ -7,7 +7,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 * *cnqr-first* Removes the top margin
 * *cnqr-last* Removes the bottom margin
 
-### Types ### 
+### Types ###
 <table class="reporttable">
 	<tr>
 		<th style="width:30%">Type</th>
