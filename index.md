@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HIG Home Page
-requireCss: bootstrap.css
+requireCss: /static/less/cnqr-view/docs.less
 ---
 # This is some content
 
