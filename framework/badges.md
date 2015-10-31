@@ -7,7 +7,11 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 
 ### Types ###
 
-<table class="reporttable">
+| Types         | Display                       |  HTML                         | 
+| ------------- |-------------------------------|-------------------------------|
+| **Alone**     | <span class="badge">42</span> | ```<span class="badge">42</span>```|
+
+<table>
 	<tr>
 		<th style="width:30%">Type</th>
 		<th style="width:70%">Example</th>
