@@ -1,4 +1,10 @@
-﻿## Gateway Style Form Elements ##
+---
+layout: default
+title: Form Elements
+requireCss: /static/less/cnqr-view/docs.less
+---
+
+## Gateway Style Form Elements ##
 
 Class "form-control" required when sizing form elements (large or small). It is optional for default element size
 
