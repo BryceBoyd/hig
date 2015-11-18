@@ -1,3 +1,9 @@
+---
+layout: default
+title: Colors
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 ## Gateway Style Colors ##
 
 A list of common variables and thier value in the boostrap framework we use for styling
