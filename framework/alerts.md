@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reference
 title: Alerts
 requireCss: /static/less/cnqr-view/docs.less
 ---
