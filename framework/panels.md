@@ -1,3 +1,9 @@
+---
+layout: reference
+title: panels
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 ## Panel (Available in all themes) ##
 
 ### Basic Usage ###
