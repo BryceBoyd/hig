@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reference
 title: helper classes
 requireCss: /static/less/cnqr-view/docs.less
 ---
