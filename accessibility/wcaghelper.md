@@ -1,3 +1,9 @@
+---
+layout: reference
+title: wcag helper
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 	<p>To turn on the WCAG Helper:</p>
 	<ul>
 		<li>Go to your environment <b><a href="/demo.asp" target="_blank">config page</a></b></li>
