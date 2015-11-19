@@ -9,17 +9,12 @@
 {% assign pages = site.pages | sort:"url" %}
 {% assign last_container = '' %}
 
-<ul>
-{% for node in pages %}
-<li>No filtering: {{ node.url }}</li>
-{% endfor %}
-</ul>
-
 <ul class="list-group sidebar-nav-v1" id="sidebar-nav">
 {% for node in pages %}
     {% assign node_parts = node.url | remove_first: '/' | split: '/'  %}
     {% if node_parts[1] != 'index.html' %}
         {% assign node_depth = node_parts | size %}
+        <li>{{ node.url }} - {{ node_depth }}</li>
         {% if node_depth > 1 %}
             {% assign node_category = node_parts[0] | capitalize %}
         {% else %}
