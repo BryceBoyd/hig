@@ -1,3 +1,9 @@
+ ---
+layout: reference
+title: tools
+requireCss: /static/less/cnqr-view/docs.less
+---
+
   <h3>Firefox</h3>
   <ul>
     <li><a href="http://jimthatcher.com/favelets/" target="_blank">Jim Thatcher's Favelets Toolbar</a></li>
