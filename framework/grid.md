@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reference
 title: grid
 requireCss: /static/less/cnqr-view/docs.less
 ---
