@@ -4,9 +4,9 @@ title: message box
 requireCss: /static/less/cnqr-view/docs.less
 ---
 
-<iframe src="_messagebox-jquery.md"></iframe>
-<iframe src="_messagebox-prototypejs.md"></iframe>
-<iframe src="_messagebox-extjs.md"></iframe>
+<iframe src="_messagebox-jquery.html"></iframe>
+<iframe src="_messagebox-prototypejs.html"></iframe>
+<iframe src="_messagebox-extjs.html"></iframe>
 
 
 ## Types ##
