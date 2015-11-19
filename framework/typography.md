@@ -1,3 +1,9 @@
+---
+layout: reference
+title: typography
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 ## Gateway Style Typography ##
 
 ### Text ###
