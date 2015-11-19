@@ -9,7 +9,7 @@
 {% assign pages = site.pages | sort:"url" %}
 {% assign last_container = '' %}
 
-<ul class="list-group sidebar-nav-v1" id="sidebar-nav">
+<ul class="cnqr-list-group sidebar-nav-v1" id="sidebar-nav">
 {% for node in pages %}
     {% assign node_parts = node.url | remove_first: '/' | split: '/'  %}
     {% if node_parts[1] != 'index.html' %}
@@ -66,7 +66,7 @@
 
 {% if sub_open == true %}
 
-    <li class="list-group-item list-toggle {{ category_status }}">
+    <li class="cnqr-list-group-item list-toggle {{ category_status }}">
         <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-{{ node_category }}">{{ node_category }}</a>
         <ul id="collapse-{{ node_category }}" class="collapse {{ category_status | replace:'active','in' }}">
             <li class="{{ node_status }}">
