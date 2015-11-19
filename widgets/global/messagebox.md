@@ -4,7 +4,63 @@ title: message box
 requireCss: /static/less/cnqr-view/docs.less
 ---
 
-<h4>Types</h4>
+## Types ##
+
+| Types   | Example                                                                                     |
+| ------- | ------------------------------------------------------------------------------------------- |
+| confirm | <input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"> |
+| success | <input id="successMsgBox" type="button" value="Success" class="btn btn-success">            |
+| info    | <input id="infoMsgBox" type="button" value="Info" class="btn btn-info">                     |
+| warning | <input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning">            |
+| error   | <input id="errorMsgBox" type="button" value="Error" class="btn btn-danger">                 |
+
+## Code ##
+
+### confirm ###
+```javascript
+$("#confirmMsgBox").on("click", function () {
+	$.cnqr.messagebox.confirm({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+```
+
+### success ###
+```javascript
+$("#successMsgBox").on("click", function () {
+	$.cnqr.messagebox.success({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+```
+
+### info ###
+```javascript
+$("#infoMsgBox").on("click", function () {
+	$.cnqr.messagebox.info({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+```
+
+### warning ###
+```javascript
+$("#warningMsgBox").on("click", function () {
+	$.cnqr.messagebox.warning({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+```
+
+### error ###
+```javascript
+$("#errorMsgBox").on("click", function () {
+	$.cnqr.messagebox.error({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+```
+
 <table class="reporttable reporttable-lg">
 	<tr>
 		<th>Type</th>
