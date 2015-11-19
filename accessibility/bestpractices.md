@@ -1,6 +1,7 @@
 ---
 layout: reference
 title: best practices
+requireCss: /static/less/cnqr-view/docs.less
 ---
 
 <ul>
