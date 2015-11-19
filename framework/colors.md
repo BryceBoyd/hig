@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reference
 title: Colors
 requireCss: /static/less/cnqr-view/docs.less
 ---
