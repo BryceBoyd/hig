@@ -1,3 +1,9 @@
+---
+layout: reference
+title: style overview
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 ## Gateway Style Overview ##
 
 The Gateway style uses a number of building blocks to generate the desired user experience. They are
