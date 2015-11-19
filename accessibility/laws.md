@@ -1,3 +1,8 @@
+---
+layout: reference
+title: laws
+requireCss: /static/less/cnqr-view/docs.less
+---
 
 <h3>Perceivable</h3>
 <ul>
