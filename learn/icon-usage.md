@@ -1,4 +1,8 @@
-<span class="icon-not-a-moon"></span>
+---
+layout: reference
+title: Icon Usage
+requireCss: /static/less/cnqr-view/docs.less
+---
 
 ## Travel Icons ##
 <span class="icon-air"></span>
