@@ -1,4 +1,10 @@
-﻿## Concur Icon Font (Available In All Themes) ##
+---
+layout: reference
+title: icon font
+requireCss: /static/less/cnqr-view/docs.less
+---
+
+## Concur Icon Font (Available In All Themes) ##
 
 ### Icon Examples ###
 <div class="clearfix">
