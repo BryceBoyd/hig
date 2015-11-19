@@ -5,10 +5,10 @@ requireCss: /static/less/cnqr-view/docs.less
 ---
 
 Testing Iframe capability
- 
-<iframe src="_messagebox-jquery.html"></iframe>
-<iframe src="_messagebox-prototypejs.html"></iframe>
-<iframe src="_messagebox-extjs.html"></iframe>
+
+| JQuery | prototypejs | extjs | react |
+| --- | --- | --- | --- |
+| <iframe src="_messagebox-jquery.html"></iframe> | <iframe src="_messagebox-prototypejs.html"></iframe> | <iframe src="_messagebox-extjs.html"></iframe>|  <iframe src="_messagebox-extjs.html"></iframe> |
 
 
 ## Types ##
