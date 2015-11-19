@@ -1,3 +1,9 @@
+---
+layout: reference
+title: less syntax
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 ## Less Syntax ##
 
 Adapted from http://lesscss.org/ 
@@ -40,7 +46,7 @@ Variables allow you to specify widely used values in a single place, and then re
 
 ### Mixins ###
 
-Mixins allow you to embed all the properties of a class into another class by simply including the class name as one of its properties. It’s just like variables, but for whole classes. Mixins can also behave like functions, and take arguments, as seen in the example below.
+Mixins allow you to embed all the properties of a class into another class by simply including the class name as one of its properties. Itâ€™s just like variables, but for whole classes. Mixins can also behave like functions, and take arguments, as seen in the example below.
 
 <table class="reporttable">
   <tr>
