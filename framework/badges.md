@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reference
 title: Badges
 requireCss: /static/less/cnqr-view/docs.less
 ---
