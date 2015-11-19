@@ -1,3 +1,9 @@
+---
+layout: reference
+title: best practices
+requireCss: /static/less/cnqr-view/docs.less
+---
+
 <ul>
 	<li><a href="#bp1">Tabbable Vs Non-Tabbable elements</a></li>
 	<li><a href="#bp2">Aria-label Vs screen-reader-only Vs screen-reader-only-focusable</a></li>
