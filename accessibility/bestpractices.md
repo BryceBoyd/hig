@@ -295,9 +295,9 @@ requireCss: /static/less/cnqr-view/docs.less
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<iframe src="/UI/docs/Accessibility/WCAGHelperIframeExample" id="notitleiframe"></iframe>
-			</pre>
+			{% endhighlight  %}
 		</td>
 	</tr>
 	<tr>
@@ -307,9 +307,9 @@ requireCss: /static/less/cnqr-view/docs.less
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<iframe src="/UI/docs/Accessibility/WCAGHelperIframeExample" id="notitleiframe" title="Iframe with Title"></iframe>
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 </table>
@@ -385,7 +385,7 @@ requireCss: /static/less/cnqr-view/docs.less
 </div>
 
 <h5>HTML</h5>
-<pre class="brush: xml; toolbar: false;">
+{% highlight html %}
 	<div id="WorkAddress" class="cnqr-panel cnqr-panel-default">
 	   <div class="cnqr-panel-heading">
 		  <h2>
@@ -453,7 +453,7 @@ requireCss: /static/less/cnqr-view/docs.less
 		  </div>
 	   </div>
 	</div>			
-</pre>
+{% endhighlight %}
 
 <h3 id="bp10">Make sure you can navigate through your site using the keyboard only</h3>
 <p>Take your mouse and put it in your drawer. Now, navigate your website with your keyboard alone!</p>
@@ -489,7 +489,7 @@ requireCss: /static/less/cnqr-view/docs.less
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<TABLE>
 					<caption> Amount and brand of Tequilla consumed </caption>
 					<tbody>
@@ -510,7 +510,7 @@ requireCss: /static/less/cnqr-view/docs.less
 						</TR>
 					</tbody>
 				</TABLE>					
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 
