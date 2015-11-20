@@ -489,28 +489,28 @@ requireCss: /static/less/cnqr-view/docs.less
 		</td>
 		<td>
 			<h5>HTML</h5>
-			{% highlight html %}
-				<TABLE>
-					<caption> Amount and brand of Tequilla consumed </caption>
-					<tbody>
-						<TR>
-						   <TH id=”tableHeader1” >Name</TH>
-							<TH id=”tableHeader2” >Serving Size (oz)</TH>
-							<TH id=”tableHeader3” >Brand</TH>
-						</TR>
-						<TR>
-							<TD headers=”tableHeader1” >Val</TD>
-							<TD headers=”tableHeader2” >15</TD>
-							<TD headers=”tableHeader3” >Jose Cuervo</TD>
-						</TR>
-						<TR>
-							<TD headers=”tableHeader1” >Andrew</TD>
-							<TD headers=”tableHeader2” >5</TD>
-							<TD headers=”tableHeader3” >Bulldog</TD>
-						</TR>
-					</tbody>
-				</TABLE>					
-			{% endhighlight %}
+{% highlight html %}
+<table>
+	<caption> Amount and brand of Tequilla consumed </caption>
+	<tbody>
+		<TR>
+		   <TH id=”tableHeader1” >Name</TH>
+			<TH id=”tableHeader2” >Serving Size (oz)</TH>
+			<TH id=”tableHeader3” >Brand</TH>
+		</TR>
+		<TR>
+			<TD headers=”tableHeader1” >Val</TD>
+			<TD headers=”tableHeader2” >15</TD>
+			<TD headers=”tableHeader3” >Jose Cuervo</TD>
+		</TR>
+		<TR>
+			<TD headers=”tableHeader1” >Andrew</TD>
+			<TD headers=”tableHeader2” >5</TD>
+			<TD headers=”tableHeader3” >Bulldog</TD>
+		</TR>
+	</tbody>
+</table>					
+{% endhighlight %}
 		</td>
 	</tr>
 
