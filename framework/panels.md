@@ -47,7 +47,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-default">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -56,9 +56,9 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>					
-			</pre>
+			{% endhighlight %}
 
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-default cnqr-muted">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -67,8 +67,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>					
-			</pre>
-
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -96,7 +95,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-primary">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -114,7 +113,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>				
-			</pre>
+			{% endhighlight %}
 
 		</td>
 	</tr>
@@ -132,7 +131,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-success">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -141,7 +140,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>			
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -158,7 +157,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-info">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -167,7 +166,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>		
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -184,7 +183,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-warning">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -193,7 +192,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>		
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -210,7 +209,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<div class="cnqr-panel cnqr-panel-danger">
 					<div class="cnqr-panel-heading">
 						Panel Heading (optional)
@@ -219,7 +218,7 @@ Easily add a heading container to your panel with <code>.cnqr-panel-heading</cod
 						Panel content
 					</div>
 				</div>		
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 </table>
