@@ -30,7 +30,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 	Alert content. <a href="#">Demo Link</a>
 </div>
 
-```html
+{% highlight html %}
 <div class="cnqr-alert cnqr-alert-info">
 	<h3>Alert Title (optional)</h3>
 	Alert content. <a href="#">Demo Link</a>
@@ -43,7 +43,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 <div class="cnqr-alert cnqr-alert-info cnqr-condensed cnqr-muted">
 	Alert content. <a href="#">Demo Link</a>
 </div>
-```
+{% endhighlight %}
 
 #### Alert - Success ####
 <div class="cnqr-alert cnqr-alert-success">
