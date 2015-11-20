@@ -1,5 +1,6 @@
 ---
 layout: iframe
+requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ### confirm ###
