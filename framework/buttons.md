@@ -10,7 +10,9 @@ requireCss: /static/less/cnqr-view/docs.less
 Not all buttons are equal. In the Concur ecosystem, there are "workhorse" buttons, and "Call to action" buttons. This page will explain how to correctly design using buttons, the different button sizes and variations, and implementation details and best practices. 
 
 ### Call To Action Buttons ###
-<button class="btn btn-primary" type="submit">Purchase Now!</button><br />
+
+<button class="btn btn-primary btn-lg" type="submit">Purchase Now!</button><br />
+
 * Reserved only for the most important/primary actions (ex: Sign up now!, Submit Report, Book This Trip, etc.). 
 * Not all pages require a CTA, 
 * For most pages, only one CTA should appear on a given page. 
@@ -18,7 +20,9 @@ Not all buttons are equal. In the Concur ecosystem, there are "workhorse" button
 * Button sizes are determined in the table below as V2 Base, V1 Small, V1 X-small.
 
 ### Workhorse Buttons ###
+
 <button class="btn btn-default" type="submit">Workhorse</button><br />
+
 * Used for all actions/interactions within a feature (ex: Browse, Next, Add, Edit). This includes Drop Down Buttons.  
 * Button sizes are determined in the table below as V2 Base, V1 Small, V1 X-small. 
 
