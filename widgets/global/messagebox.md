@@ -8,7 +8,7 @@ Testing Iframe capability
 
 | JQuery | prototypejs | extjs | react |
 | --- | --- | --- | --- |
-| <iframe src="_messagebox-jquery.html"></iframe> | <iframe src="_messagebox-prototypejs.html"></iframe> | <iframe src="_messagebox-extjs.html"></iframe>|  <iframe src="_messagebox-extjs.html"></iframe> |
+| <iframe src="messagebox-jquery.html"></iframe> | <iframe src="_messagebox-prototypejs.html"></iframe> | <iframe src="_messagebox-extjs.html"></iframe>|  <iframe src="_messagebox-extjs.html"></iframe> |
 
 
 ## Types ##
