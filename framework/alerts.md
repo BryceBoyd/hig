@@ -51,12 +51,12 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 	Alert content. <a href="#">Demo Link</a>
 </div>
 
-```html
+{% highlight html %}
 <div class="cnqr-alert cnqr-alert-success">
 	<h3>Alert Title (optional)</h3>
 	Alert content. <a href="#">Demo Link</a>
 </div>
-```
+{% endhighlight %}
 
 #### Alert - Warning ####
 <div class="cnqr-alert cnqr-alert-warning">
@@ -68,7 +68,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 	Alert content. <a href="#">Demo Link</a>
 </div>
 
-```html
+{% highlight html %}
 <div class="cnqr-alert cnqr-alert-warning">
 	<h3>Alert Title (optional)</h3>
 	Alert content. <a href="#">Demo Link</a>
@@ -77,7 +77,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 <div class="cnqr-alert cnqr-alert-warning cnqr-condensed">
 	Alert content. <a href="#">Demo Link</a>
 </div>
-```
+{% endhighlight %}
 
 #### Alert - Error ####
 <div class="cnqr-alert cnqr-alert-error">
@@ -89,7 +89,7 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 	Alert content. <a href="#">Demo Link</a>
 </div>
 
-```html
+{% highlight html %}
 <div class="cnqr-alert cnqr-alert-error">
 	<h3>Alert Title (optional)</h3>
 	Alert content. <a href="#">Demo Link</a>
@@ -98,15 +98,15 @@ Our alert containers visually follow the basic Bootstrap Alert containers style 
 <div class="cnqr-alert cnqr-alert-error cnqr-condensed">
 	Alert content. <a href="#">Demo Link</a>
 </div>
-```
+{% endhighlight %}
 
 #### Field Validation Error ####
 <span class="field-validation-error">
 	Alert content. <a href="#">Demo Link</a>
 </span>
 
-```html
+{% highlight html %}
 <span class="field-validation-error">
 	Alert content. <a href="#">Demo Link</a>
 </span>
-```
+{% endhighlight %}
