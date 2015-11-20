@@ -22,9 +22,9 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			{% highlight html %}
-				<span class="badge">42</span>
-			{% endhighlight %}
+{% highlight html %}
+<span class="badge">42</span>
+{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -34,9 +34,9 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			{% highlight html %}
-				<a href="#">Inbox <span class="badge">42</span></a>
-			{% endhighlight %}
+{% highlight html %}
+<a href="#">Inbox <span class="badge">42</span></a>
+{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -52,15 +52,15 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			{% highlight html %}
-				<button type="button"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-default"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-primary"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-success"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-info"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-warning"> Messages <span class="badge">4</span></button>
-				<button type="button" class="btn btn-danger"> Messages <span class="badge">4</span></button>
-			{% endhighlight %}
+{% highlight html %}
+<button type="button"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-default"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-primary"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-success"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-info"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-warning"> Messages <span class="badge">4</span></button>
+<button type="button" class="btn btn-danger"> Messages <span class="badge">4</span></button>
+{% endhighlight %}
 		</td>
 	</tr>
 </table>
