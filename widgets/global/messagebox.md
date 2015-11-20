@@ -4,23 +4,37 @@ title: message box
 requireCss: /static/less/cnqr-view/docs.less
 ---
 
-Testing Iframe capability
-
-| JQuery | prototypejs | extjs |
-| --- | --- | --- |
-| <iframe src="messagebox-jquery.html"></iframe> | <iframe src="messagebox-prototypejs.html"></iframe> | <iframe src="messagebox-extjs.html"></iframe>|
 
 ## Types ##
 
-| Types   | Example                                                                                     |
-| ------- | ------------------------------------------------------------------------------------------- |
-| confirm | <input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"> |
-| success | <input id="successMsgBox" type="button" value="Success" class="btn btn-success">            |
-| info    | <input id="infoMsgBox" type="button" value="Info" class="btn btn-info">                     |
-| warning | <input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning">            |
-| error   | <input id="errorMsgBox" type="button" value="Error" class="btn btn-danger">                 |
+<table class="reporttable">
+	<tr>
+		<th>confirm</th>
+		<th>success</th>
+		<th>info   </th>
+		<th>warning</th>
+		<th>error  </th>
+	</tr>
+	<tr>
+		<td><input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"></td>
+		<td><input id="successMsgBox" type="button" value="Success" class="btn btn-success"></td>
+		<td><input id="infoMsgBox" type="button" value="Info" class="btn btn-info"></td>
+		<td><input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning"></td>
+		<td><input id="errorMsgBox" type="button" value="Error" class="btn btn-danger"></td>
+	</tr>
+</table>
 
-## Code ##
+##Implmentation
+
+### JQuery
+<iframe src="messagebox-jquery.html"></iframe>
+
+### PrototypeJS
+<iframe src="messagebox-prototypejs.html"></iframe> 
+
+### ExtJS
+<iframe src="messagebox-extjs.html"></iframe>|
+
 
 ### confirm ###
 ```javascript
