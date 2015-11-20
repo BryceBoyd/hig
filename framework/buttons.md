@@ -6,7 +6,7 @@ requireCss: /static/less/cnqr-view/docs.less
 
 ## Gateway Style Buttons ##
 
-## Overview ##
+### Overview ###
 Not all buttons are equal. In the Concur ecosystem, there are "workhorse" buttons, and "Call to action" buttons. This page will explain how to correctly design using buttons, the different button sizes and variations, and implementation details and best practices. 
 
 ### Call To Action Buttons ###
