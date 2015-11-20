@@ -10,13 +10,7 @@ requireCss: /static/less/cnqr-view/docs.less
 
 Our badges follow the basic Bootstrap badge convention (<a href="http://getbootstrap.com/components/#badges">Bootstrap Badges</a>)
 
-### Types ###
-
-| Types         | Display                       |  HTML                         | 
-| ------------- |-------------------------------|-------------------------------|
-| **Alone**     | <span class="badge">42</span> | ```<span class="badge">42</span>```|
-
-<table>
+<table class="reporttable">
 	<tr>
 		<th style="width:30%">Type</th>
 		<th style="width:70%">Example</th>
@@ -28,9 +22,9 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<span class="badge">42</span>
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -40,9 +34,9 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<a href="#">Inbox <span class="badge">42</span></a>
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -58,22 +52,15 @@ Our badges follow the basic Bootstrap badge convention (<a href="http://getboots
 		</td>
 		<td>
 			<h5>HTML</h5>
-			<pre class="brush: xml; toolbar: false;">
+			{% highlight html %}
 				<button type="button"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-default"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-primary"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-success"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-info"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-warning"> Messages <span class="badge">4</span></button>
-
 				<button type="button" class="btn btn-danger"> Messages <span class="badge">4</span></button>
-			</pre>
+			{% endhighlight %}
 		</td>
 	</tr>
-
 </table>
