@@ -4,7 +4,7 @@ title: Alerts
 requireCss: /static/less/cnqr-view/docs.less
 ---
 
-## Alerts (Available in all themes)
+## Alerts (Available in all themes) ##
 
 ### Basic Usage ###
 Our alert containers visually follow the basic Bootstrap Alert containers style (<a href="http://getbootstrap.com/components/#alerts">Bootstrap Alerts</a>), except with each class prefixed with "cnqr-".
