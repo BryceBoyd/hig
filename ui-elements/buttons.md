@@ -7,24 +7,32 @@ requireCss: /static/less/cnqr-view/docs.less
 ## Gateway Style Buttons ##
 
 ### Overview ###
-Not all buttons are equal. In the Concur ecosystem, there are "workhorse" buttons, and "Call to action" buttons. This page will explain how to correctly design using buttons, the different button sizes and variations, and implementation details and best practices. 
+Buttons are used to clearly communicate what action will occur when the user touches it. Not all buttons are equal. In the Concur ecosystem, there are "workhorse" buttons, and "Call to action" buttons. This page will explain how to correctly design using buttons, the different button sizes and variations, and implementation details and best practices. 
 
 ### Call To Action Buttons ###
 <br />
 <button class="btn btn-primary btn-lg" type="submit">Purchase Now!</button><br /><br />
 
+### Usage Guidelines ###
+* Use the CTA button only to finalize an important flow, or to commit an important action.
 * Reserved only for the most important/primary actions (ex: Sign up now!, Submit Report, Book This Trip, etc.). 
-* Not all pages require a CTA, 
-* For most pages, only one CTA should appear on a given page. 
+* Only one CTA should appear on a given page. 
+* **Note:** Some pages won't have a CTA button. This is ok. 
 * Search result pages may have one CTA per result. This helps the user locate happy path.
-* Button sizes are determined in the table below as V2 Base, V1 Small, V1 X-small.
+* Button sizes are determined as follows: 
+..* Base
+..* Small
+..* X-small.
+
 
 ### Workhorse Buttons ###
 <br />
 <button class="btn btn-default" type="submit">Workhorse</button><br /><br />
 
+* The most commonly used button type in the Concur ecosystem. 
 * Used for all actions/interactions within a feature (ex: Browse, Next, Add, Edit). This includes Drop Down Buttons.  
 * Button sizes are determined in the table below as V2 Base, V1 Small, V1 X-small. 
+
 
 ### Implementation ###
 * *Boostrap Style:* In most cases, use the Bootstrap-style button.
