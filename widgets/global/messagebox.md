@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: message box
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 
