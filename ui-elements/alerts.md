@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: Alerts
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Alerts (Available in all themes) ##
