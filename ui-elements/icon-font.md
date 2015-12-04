@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: icon font
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Concur Icon Font (Available In All Themes) ##
