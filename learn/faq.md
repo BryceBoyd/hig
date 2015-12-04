@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: faq
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 <ul>
