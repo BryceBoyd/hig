@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: checklist
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 <script>
