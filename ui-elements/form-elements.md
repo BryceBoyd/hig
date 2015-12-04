@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: Form Elements
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Gateway Style Form Elements ##
