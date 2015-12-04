@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: tables
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Tables (Available in all themes)##
