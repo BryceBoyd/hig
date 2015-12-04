@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: helper classes
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Helper Classes (Available In All Themes) ##
