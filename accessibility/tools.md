@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: tools
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ### Firefox ###
