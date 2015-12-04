@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: Colors
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Gateway Style Colors ##
