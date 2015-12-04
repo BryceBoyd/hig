@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: intro
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ### Intro to Accessibility ###
