@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: style overview
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Gateway Style Overview ##
