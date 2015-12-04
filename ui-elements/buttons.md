@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: Buttons
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Gateway Style Buttons ##
