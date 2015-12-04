@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: contrast
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 <table class="reporttable">
