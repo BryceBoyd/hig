@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: wcag helper
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 To turn on the WCAG Helper:
