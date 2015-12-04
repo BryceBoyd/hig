@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: grid
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Grid  (Available In All Themes - Must Be Enabled On Page) ##
