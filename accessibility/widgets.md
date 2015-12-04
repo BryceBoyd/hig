@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: widgets
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 <p><b>All widgets keyboard usage is based on <a href="http://www.w3.org/WAI/PF/aria-practices/#aria_ex">W3C standards</a></b></p>
