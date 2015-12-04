@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: less syntax
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Less Syntax ##
