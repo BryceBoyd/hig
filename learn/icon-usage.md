@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: Icon Usage
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ## Travel Icons ##
