@@ -1,7 +1,6 @@
 ---
 layout: reference
 title: laws
-requireCss: /static/less/cnqr-view/docs.less
 ---
 
 ### Perceivable ###
