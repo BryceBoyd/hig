@@ -67,7 +67,7 @@
 {% if sub_open == true %}
 
     <li class="cnqr-list-group-item list-toggle {{ category_status }}">
-        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-{{ node_category }}">{{ node_category }}</a>
+        <a data-toggle="collapse" data-parent="#sidebar-nav" href="#collapse-{{ node_category }}" class="collapsed">{{ node_category }}</a>
         <ul id="collapse-{{ node_category }}" class="collapse {{ category_status | replace:'active','in' }}">
             <li class="{{ node_status }}">
                 <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
@@ -76,7 +76,7 @@
 
         {% if node_category != null %}
         <li class="{{ node_status }}">
-            <a href="{{ site.baseurl }}{{ node.url }}" class="bob">{{ node.title }}</a>
+            <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
         </li>
         {% endif %}
 {% endif %}
