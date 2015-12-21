@@ -1,5 +1,5 @@
 ---
-layout: Layout-iframe-prototype.cshtml
+jslib: prototypejs
 ---
 
 hello from prototypejs
