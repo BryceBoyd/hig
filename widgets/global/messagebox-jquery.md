@@ -1,5 +1,6 @@
 ---
-layout: iframe
+layout: default
+jsLib: jquery
 ---
 
 ### confirm ###
