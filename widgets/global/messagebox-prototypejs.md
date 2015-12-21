@@ -1,5 +1,5 @@
 ---
-layout: iframe
+layout: default
 jsLib: prototypejs
 ---
 
