@@ -4,4 +4,4 @@ title: Date TextBox
 ---
 
 ## JQuery ##
-<iframe src="date-textbox-jquery.html"></iframe>
+<iframe src="date-textbox-jquery.html" frameBorder="0"></iframe>
