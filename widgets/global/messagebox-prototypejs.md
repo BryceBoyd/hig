@@ -1,5 +1,5 @@
 ---
-jslib: prototypejs
+jsLib: prototypejs
 ---
 
 hello from prototypejs
