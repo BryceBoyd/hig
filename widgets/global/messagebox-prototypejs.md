@@ -1,4 +1,5 @@
 ---
+layout: iframe
 jsLib: prototypejs
 ---
 
