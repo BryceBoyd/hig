@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: HIG Home Page
 requireCss: /static/less/cnqr-view/docs.less
 ---
