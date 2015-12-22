@@ -107,16 +107,19 @@ jsLib: jquery
 
 	<tr>
 		<td>
-			<button data-width="400" data-content="#cnqr-profile-popup" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
+			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
 				Element As Content
 			</button>
+<div id="cnqr-hig-popup-content">hello from cnqr-hig-popup-content!</div>			
 		</td>
 		<td>
 			<h5>HTML</h5>
 {% highlight html %}			
-			<button data-width="400" data-content="#cnqr-profile-popup" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
+			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
 				Element As Content
 			</button>
+			
+<div id="cnqr-hig-popup-content">hello from cnqr-hig-popup-content!</div>			
 {% endhighlight %}				
 		</td>
 	</tr>
