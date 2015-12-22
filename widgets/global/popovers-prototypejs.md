@@ -147,4 +147,60 @@ jsLib: prototypejs
 {% endhighlight %}			
 		</td>
 	</tr>
+
+	<tr>
+		<td>
+		<button type="button" 
+			class="btn btn-default cnqr-muted"
+			data-toggle="popover"
+			data-placement="left"
+			data-type="info"
+			data-content="#cnqr-hig-popup-content">
+			Element As Content
+		</button> 
+		
+		<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>
+		</td>
+		<td>
+			<h5>HTML</h5>
+{% highlight html %}
+		<button type="button" 
+			class="btn btn-default cnqr-muted"
+			data-toggle="popover"
+			data-placement="left"
+			data-type="info"
+			data-content="#cnqr-hig-popup-content">
+			Element As Content
+		</button> 
+		<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>
+{% endhighlight %}			
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<button type="button" 
+			class="btn btn-default cnqr-muted"
+			data-toggle="popover"
+			data-placement="left"
+			data-type="info"
+			data-url="/UI/docs/Widgets/GetPopOverContent">
+			AJAX Content
+		</button> 
+		
+		</td>
+		<td>
+			<h5>HTML</h5>
+{% highlight html %}
+		<button type="button" 
+			class="btn btn-default cnqr-muted"
+			data-toggle="popover"
+			data-placement="left"
+			data-type="info"
+			data-url="/UI/docs/Widgets/GetPopOverContent">
+			AJAX Content
+		</button> 
+{% endhighlight %}			
+		</td>
+	</tr>
+
 </tbody></table>
