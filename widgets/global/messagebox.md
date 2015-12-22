@@ -32,10 +32,8 @@ title: message box
 <iframe src="messagebox-prototypejs.html" frameBorder="0"></iframe> 
 
 ### ExtJS
-<iframe src="messagebox-extjs.html" frameBorder="0"></iframe>|
+<iframe src="messagebox-extjs.html" frameBorder="0"></iframe>
 
-
-    
 <script>
 	$.cnqr.ready(function () {
 		$("#confirmMsgBox").on("click", function () {
