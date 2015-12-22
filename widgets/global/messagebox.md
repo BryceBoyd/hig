@@ -1,6 +1,6 @@
 ---
 layout: reference
-title: message box
+title: Global - Message Box
 ---
 
 ##Implmentation
