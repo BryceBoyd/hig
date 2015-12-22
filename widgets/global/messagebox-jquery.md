@@ -20,6 +20,26 @@ jsLib: jquery
 	</tr>
 </table>
 
+
+<table>
+	<tr>
+		<th>Type</th>
+		<th>Example Code</th>
+	</tr>
+	<tr>
+		<td><input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"></td>
+		<td>
+		## HTML ##
+		{% highlight javascript %}
+			<input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted">
+		{% endhighlight %}	
+		
+		## Javascript ##
+			STUFF HERE		
+		</td>
+	</tr>
+</table>
+
 ### confirm ###
 {% highlight javascript %}
 $("#confirmMsgBox").on("click", function () {
