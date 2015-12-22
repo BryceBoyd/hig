@@ -1,6 +1,6 @@
 ---
 layout: reference
-title: Date TextBox
+title: Global - Date TextBox
 ---
 
 ## JQuery ##
