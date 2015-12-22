@@ -39,6 +39,7 @@ jsLib: prototypejs
 	<tr>
 		<td>
 		<button type="button" 
+			class="btn btn-success"
 			data-toggle="popover"
 			data-placement="bottom"
 			data-title="Popover Success"
@@ -52,6 +53,7 @@ jsLib: prototypejs
 			<h5>HTML</h5>
 {% highlight html %}				
 		<button type="button" 
+			class="btn btn-success"
 			data-toggle="popover"
 			data-placement="bottom"
 			data-title="Popover Success"
@@ -66,6 +68,7 @@ jsLib: prototypejs
 	<tr>
 		<td>
 		<button
+			class="btn btn-warning"
 			data-toggle="popover"
 			data-placement="top"
 			data-title="Popover Warning"
@@ -78,6 +81,7 @@ jsLib: prototypejs
 			<h5>HTML</h5>
 {% highlight html %}
 		<button
+			class="btn btn-warning"
 			data-toggle="popover"
 			data-placement="top"
 			data-title="Popover Warning"
@@ -92,6 +96,7 @@ jsLib: prototypejs
 	<tr>
 		<td>
 		<button
+			class="btn btn-danger"
 			data-toggle="popover"
 			data-placement="right"
 			data-title="Popover Danger"
@@ -104,6 +109,7 @@ jsLib: prototypejs
 			<h5>HTML</h5>
 {% highlight html %}			
 		<button
+			class="btn btn-danger"
 			data-toggle="popover"
 			data-placement="right"
 			data-title="Popover Danger"
@@ -118,6 +124,7 @@ jsLib: prototypejs
 	<tr>
 		<td>
 		<button type="button" 
+			class="btn btn-default cnqr-muted"
 			data-toggle="popover"
 			data-placement="left"
 			data-type="info"
@@ -130,6 +137,7 @@ jsLib: prototypejs
 			<h5>HTML</h5>
 {% highlight html %}
 		<button type="button" 
+			class="btn btn-default cnqr-muted"
 			data-toggle="popover"
 			data-placement="left"
 			data-type="info"
