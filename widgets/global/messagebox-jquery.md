@@ -21,7 +21,7 @@ jsLib: jquery
 </table>
 
 
-<table>
+<table class="reporttable">
 	<tr>
 		<th>Type</th>
 		<th>Example Code</th>
@@ -29,13 +29,19 @@ jsLib: jquery
 	<tr>
 		<td><input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"></td>
 		<td>
-		## HTML ##
+		<h3> HTML </h3>
 		{% highlight javascript %}
 			<input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted">
 		{% endhighlight %}	
 		
-		## Javascript ##
-			STUFF HERE		
+		<h3> Javascript </h3>
+		{% highlight javascript %}
+		$("#confirmMsgBox").on("click", function () {
+			$.cnqr.messagebox.confirm({
+				message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+			});
+		});
+		{% endhighlight %}	
 		</td>
 	</tr>
 </table>
