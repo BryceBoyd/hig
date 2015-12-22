@@ -110,7 +110,7 @@ jsLib: jquery
 			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
 				Element As Content
 			</button>
-<div id="cnqr-hig-popup-content">hello from cnqr-hig-popup-content!</div>			
+<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>			
 		</td>
 		<td>
 			<h5>HTML</h5>
@@ -119,7 +119,7 @@ jsLib: jquery
 				Element As Content
 			</button>
 			
-<div id="cnqr-hig-popup-content">hello from cnqr-hig-popup-content!</div>			
+<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>			
 {% endhighlight %}				
 		</td>
 	</tr>
