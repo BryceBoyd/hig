@@ -49,12 +49,12 @@ jsLib: prototypejs
 		</td>
 	</tr>	
 	<tr>
-		<td><input type="button" class="btn btn-error" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
+		<td><input type="button" class="btn btn-danger" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
 </td>
 		<td>
 		<h3> HTML </h3>
 		{% highlight javascript %}
-		<input type="button" class="btn btn-error" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
+		<input type="button" class="btn btn-danger" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
 		{% endhighlight %}	
 		</td>
 	</tr>	
