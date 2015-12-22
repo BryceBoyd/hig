@@ -22,6 +22,7 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
+{% highlight html %}			
 		<button type="button" 
 			data-toggle="popover"
 			data-placement="left"
