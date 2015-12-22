@@ -19,12 +19,12 @@ jsLib: prototypejs
 		</td>
 	</tr>
 	<tr>
-		<td><input type="button" value="Nullam sagittis tincidunt malesuada.', icon:CNQR.MessageBox.UpArrowIcon})">
+		<td><input type="button" class="btn btn-success" value=Success" onclick="CNQR.MessageBox.alert('Nullam sagittis tincidunt malesuada.', {title:'Error message', icon:CNQR.MessageBox.UpArrowIcon})">
 </td>
 		<td>
 		<h3> HTML </h3>
 		{% highlight javascript %}
-			<input type="button" value="Nullam sagittis tincidunt malesuada.', icon:CNQR.MessageBox.UpArrowIcon})">
+			<input type="button" class="btn btn-success" value="Success" onclick="CNQR.MessageBox.alert('Nullam sagittis tincidunt malesuada.', {title:'Error message', icon:CNQR.MessageBox.UpArrowIcon})">
 		{% endhighlight %}	
 		</td>
 	</tr>	
