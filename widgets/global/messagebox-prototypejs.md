@@ -38,5 +38,25 @@ jsLib: prototypejs
 		{% endhighlight %}	
 		</td>
 	</tr>	
-	
+	<tr>
+		<td><input type="button" class="btn btn-warning" value="Warning" onclick="CNQR.MessageBox.alert('Nunc lobortis, nisi eget rhoncus pellentesque, eros mauris gravida nisi, a aliquet dolor odio quis nisi. Donec sed lectus eu diam malesuada placerat eget non ipsum. Ut auctor nisi ac nibh convallis dignissim.', {title:'Warning message'})">
+</td>
+		<td>
+		<h3> HTML </h3>
+		{% highlight javascript %}
+		<input type="button" class="btn btn-warning" value="Warning" onclick="CNQR.MessageBox.alert('Nunc lobortis, nisi eget rhoncus pellentesque, eros mauris gravida nisi, a aliquet dolor odio quis nisi. Donec sed lectus eu diam malesuada placerat eget non ipsum. Ut auctor nisi ac nibh convallis dignissim.', {title:'Warning message'})">
+		{% endhighlight %}	
+		</td>
+	</tr>	
+	<tr>
+		<td><input type="button" class="btn btn-error" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
+</td>
+		<td>
+		<h3> HTML </h3>
+		{% highlight javascript %}
+		<input type="button" class="btn btn-error" value="Error" onclick="CNQR.MessageBox.alert('Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,', {title:'Error message', icon:CNQR.MessageBox.ErrorIcon})">
+		{% endhighlight %}	
+		</td>
+	</tr>	
+
 </table>
