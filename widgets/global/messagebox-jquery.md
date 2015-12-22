@@ -44,29 +44,27 @@ jsLib: jquery
 		{% endhighlight %}	
 		</td>
 	</tr>
+	<tr>
+		<td><input id="successMsgBox" type="button" value="Success" class="btn btn-success"></td>
+		<td>
+				<h3> HTML </h3>
+		{% highlight javascript %}
+			<input id="successMsgBox" type="button" value="Success" class="btn btn-success">
+		{% endhighlight %}	
+		
+		<h3> Javascript </h3>
+		{% highlight javascript %}
+			$("#successMsgBox").on("click", function () {
+				$.cnqr.messagebox.success({
+					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+				});
+			});
+		{% endhighlight %}	
+		</td>
+	</tr>
+	
 </table>
 
-
-
-sd;lffsd
-
-### confirm ###
-{% highlight javascript %}
-$("#confirmMsgBox").on("click", function () {
-	$.cnqr.messagebox.confirm({
-		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-	});
-});
-{% endhighlight %}
-
-### success ###
-{% highlight javascript %}
-$("#successMsgBox").on("click", function () {
-	$.cnqr.messagebox.success({
-		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-	});
-});
-{% endhighlight %}
 
 ### info ###
 {% highlight javascript %}
