@@ -19,7 +19,7 @@ jsLib: prototypejs
 		</td>
 	</tr>
 	<tr>
-		<td><input type="button" class="btn btn-success" value=Success" onclick="CNQR.MessageBox.alert('Nullam sagittis tincidunt malesuada.', {title:'Error message', icon:CNQR.MessageBox.UpArrowIcon})">
+		<td><input type="button" class="btn btn-success" value="Success" onclick="CNQR.MessageBox.alert('Nullam sagittis tincidunt malesuada.', {title:'Error message', icon:CNQR.MessageBox.UpArrowIcon})">
 </td>
 		<td>
 		<h3> HTML </h3>
@@ -29,12 +29,12 @@ jsLib: prototypejs
 		</td>
 	</tr>	
 	<tr>
-		<td><input type="button" value="Alert w/ info icon" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', icon:CNQR.MessageBox.InfoIcon})">
+		<td><input type="button" class="btn btn-info" value="Info" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', {title:'Info message', icon:CNQR.MessageBox.InfoIcon})">
 </td>
 		<td>
 		<h3> HTML </h3>
 		{% highlight javascript %}
-			<input type="button" value="Alert w/ info icon" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', icon:CNQR.MessageBox.InfoIcon})">
+		<input type="button" class="btn btn-info" value="Info" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', {title:'Info message', icon:CNQR.MessageBox.InfoIcon})">
 		{% endhighlight %}	
 		</td>
 	</tr>	
