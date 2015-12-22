@@ -5,24 +5,6 @@ jsLib: jquery
 
 <table class="reporttable">
 	<tr>
-		<th>confirm</th>
-		<th>success</th>
-		<th>info   </th>
-		<th>warning</th>
-		<th>error  </th>
-	</tr>
-	<tr>
-		<td><input id="confirmMsgBox" type="button" value="Confirm" class="btn btn-default cnqr-muted"></td>
-		<td><input id="successMsgBox" type="button" value="Success" class="btn btn-success"></td>
-		<td><input id="infoMsgBox" type="button" value="Info" class="btn btn-info"></td>
-		<td><input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning"></td>
-		<td><input id="errorMsgBox" type="button" value="Error" class="btn btn-danger"></td>
-	</tr>
-</table>
-
-
-<table class="reporttable">
-	<tr>
 		<th>Type</th>
 		<th>Example Code</th>
 	</tr>
@@ -62,37 +44,61 @@ jsLib: jquery
 		{% endhighlight %}	
 		</td>
 	</tr>
-	
+	<tr>
+		<td><input id="infoMsgBox" type="button" value="Info" class="btn btn-info"></td>
+		<td>
+				<h3> HTML </h3>
+		{% highlight javascript %}
+			<input id="infoMsgBox" type="button" value="Info" class="btn btn-info">
+		{% endhighlight %}	
+		
+		<h3> Javascript </h3>
+		{% highlight javascript %}
+			$("#infoMsgBox").on("click", function () {
+				$.cnqr.messagebox.info({
+					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+				});
+			});
+		{% endhighlight %}	
+		</td>
+	</tr>
+	<tr>
+		<td><input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning"></td>
+		<td>
+				<h3> HTML </h3>
+		{% highlight javascript %}
+			<input id="warningMsgBox" type="button" value="Warning" class="btn btn-warning">
+		{% endhighlight %}	
+		
+		<h3> Javascript </h3>
+		{% highlight javascript %}
+			$("#warningMsgBox").on("click", function () {
+				$.cnqr.messagebox.warning({
+					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+				});
+			});
+		{% endhighlight %}	
+		</td>
+	</tr>
+	<tr>
+		<td><input id="errorMsgBox" type="button" value="Error" class="btn btn-danger"></td>
+		<td>
+		<h3> HTML </h3>
+		{% highlight javascript %}
+			<input id="errorMsgBox" type="button" value="Error" class="btn btn-danger">
+		{% endhighlight %}	
+		
+		<h3> Javascript </h3>
+		{% highlight javascript %}
+			$("#errorMsgBox").on("click", function () {
+				$.cnqr.messagebox.error({
+					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+				});
+			});
+		{% endhighlight %}	
+		</td>
+	</tr>
 </table>
-
-
-### info ###
-{% highlight javascript %}
-$("#infoMsgBox").on("click", function () {
-	$.cnqr.messagebox.info({
-		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-	});
-});
-{% endhighlight %}
-
-### warning ###
-{% highlight javascript %}
-$("#warningMsgBox").on("click", function () {
-	$.cnqr.messagebox.warning({
-		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-	});
-});
-{% endhighlight %}
-
-### error ###
-{% highlight javascript %}
-$("#errorMsgBox").on("click", function () {
-	$.cnqr.messagebox.error({
-		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-	});
-});
-{% endhighlight %}
-
 
 <script>
 	$.cnqr.ready(function () {
