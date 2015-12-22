@@ -18,8 +18,25 @@ jsLib: prototypejs
 		{% endhighlight %}	
 		</td>
 	</tr>
+	<tr>
+		<td><input type="button" value="Nullam sagittis tincidunt malesuada.', icon:CNQR.MessageBox.UpArrowIcon})">
+</td>
+		<td>
+		<h3> HTML </h3>
+		{% highlight javascript %}
+			<input type="button" value="Nullam sagittis tincidunt malesuada.', icon:CNQR.MessageBox.UpArrowIcon})">
+		{% endhighlight %}	
+		</td>
+	</tr>	
+	<tr>
+		<td><input type="button" value="Alert w/ info icon" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', icon:CNQR.MessageBox.InfoIcon})">
+</td>
+		<td>
+		<h3> HTML </h3>
+		{% highlight javascript %}
+			<input type="button" value="Alert w/ info icon" onclick="CNQR.MessageBox.alert('Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit.', icon:CNQR.MessageBox.InfoIcon})">
+		{% endhighlight %}	
+		</td>
+	</tr>	
+	
 </table>
-
-<script>
-</script>
-
