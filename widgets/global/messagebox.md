@@ -33,37 +33,3 @@ title: message box
 
 ### ExtJS
 <iframe src="messagebox-extjs.html" frameBorder="0"></iframe>
-
-<script>
-	$.cnqr.ready(function () {
-		$("#confirmMsgBox").on("click", function () {
-			$.cnqr.messagebox.confirm({
-				message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-			});
-		});
-
-		$("#successMsgBox").on("click", function () {
-			$.cnqr.messagebox.success({
-				message: "Nullam sagittis tincidunt malesuada."
-			});
-		});
-
-		$("#infoMsgBox").on("click", function () {
-			$.cnqr.messagebox.info({
-				message: "Phasellus tristique tristique blandit. Nullam pellentesque porttitor orci. Nunc eros turpis, ultrices ut consequat in, rhoncus vitae metus. Pellentesque sit amet rutrum augue, a placerat odio. Mauris blandit pharetra sapien, id placerat orci tempus eget. Aliquam interdum neque a metus molestie, ut rhoncus justo hendrerit. In aliquam porttitor mauris at luctus. In ullamcorper tristique hendrerit. "
-			});
-		});
-
-		$("#warningMsgBox").on("click", function () {
-			$.cnqr.messagebox.warning({
-				message: "Nunc lobortis, nisi eget rhoncus pellentesque, eros mauris gravida nisi, a aliquet dolor odio quis nisi. Donec sed lectus eu diam malesuada placerat eget non ipsum. Ut auctor nisi ac nibh convallis dignissim. "
-			});
-		});
-
-		$("#errorMsgBox").on("click", function () {
-			$.cnqr.messagebox.error({
-				message: "Aliquam vestibulum risus porta arcu egestas rhoncus. Nulla vehicula, elit eget porta ultricies,"
-			});
-		});
-	});
-</script>
