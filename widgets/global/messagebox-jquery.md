@@ -17,13 +17,13 @@ jsLib: jquery
 		{% endhighlight %}	
 		
 		<h3> Javascript </h3>
-		{% highlight javascript %}
-		$("#confirmMsgBox").on("click", function () {
-			$.cnqr.messagebox.confirm({
-				message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-			});
-		});
-		{% endhighlight %}	
+{% highlight javascript %}
+$("#confirmMsgBox").on("click", function () {
+	$.cnqr.messagebox.confirm({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+{% endhighlight %}	
 		</td>
 	</tr>
 	<tr>
@@ -35,13 +35,13 @@ jsLib: jquery
 		{% endhighlight %}	
 		
 		<h3> Javascript </h3>
-		{% highlight javascript %}
-			$("#successMsgBox").on("click", function () {
-				$.cnqr.messagebox.success({
-					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-				});
-			});
-		{% endhighlight %}	
+{% highlight javascript %}
+$("#successMsgBox").on("click", function () {
+	$.cnqr.messagebox.success({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+{% endhighlight %}	
 		</td>
 	</tr>
 	<tr>
@@ -53,13 +53,13 @@ jsLib: jquery
 		{% endhighlight %}	
 		
 		<h3> Javascript </h3>
-		{% highlight javascript %}
-			$("#infoMsgBox").on("click", function () {
-				$.cnqr.messagebox.info({
-					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-				});
-			});
-		{% endhighlight %}	
+{% highlight javascript %}
+$("#infoMsgBox").on("click", function () {
+	$.cnqr.messagebox.info({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+{% endhighlight %}	
 		</td>
 	</tr>
 	<tr>
@@ -71,13 +71,13 @@ jsLib: jquery
 		{% endhighlight %}	
 		
 		<h3> Javascript </h3>
-		{% highlight javascript %}
-			$("#warningMsgBox").on("click", function () {
-				$.cnqr.messagebox.warning({
-					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-				});
-			});
-		{% endhighlight %}	
+{% highlight javascript %}
+$("#warningMsgBox").on("click", function () {
+	$.cnqr.messagebox.warning({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+{% endhighlight %}	
 		</td>
 	</tr>
 	<tr>
@@ -89,13 +89,13 @@ jsLib: jquery
 		{% endhighlight %}	
 		
 		<h3> Javascript </h3>
-		{% highlight javascript %}
-			$("#errorMsgBox").on("click", function () {
-				$.cnqr.messagebox.error({
-					message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-				});
-			});
-		{% endhighlight %}	
+{% highlight javascript %}
+$("#errorMsgBox").on("click", function () {
+	$.cnqr.messagebox.error({
+		message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	});
+});
+{% endhighlight %}	
 		</td>
 	</tr>
 </table>
