@@ -142,7 +142,7 @@ jsLib: prototypejs
 			data-placement="left"
 			data-type="info"
 			data-content="No title">
-			Info
+			Default With No Title
 		</button> 
 {% endhighlight %}			
 		</td>
