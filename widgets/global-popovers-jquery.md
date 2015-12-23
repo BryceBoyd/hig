@@ -18,9 +18,16 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos %}			
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-type="info" data-title="Popover Info" data-placement="top" data-toggle="popover" class="ui-button ui-button-info ui-corner-all" type="button">
-				Info
-			</button>	
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-type="info" 
+	data-title="Popover Info" 
+	data-placement="top" 
+	data-toggle="popover" 
+	class="ui-button ui-button-info ui-corner-all" 
+	type="button">
+	Info
+</button>	
 {% endhighlight %}
 </td>
 	</tr>
