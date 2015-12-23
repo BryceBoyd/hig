@@ -235,7 +235,11 @@ THIS STATIC EXAMPLE IS ONLY USED AS AN EXAMPLE
 -->
 <div class="divcell">
 	<p>The following input has a label</p>
-	<label class="cnqr-validation-label-error" for="Address">Address&nbsp;<span class="field-required">*</span></label>		<div class="editor-field">
+	<label class="cnqr-validation-label-error" for="Address">
+		Address&nbsp;
+		<span class="field-required">*</span>
+	</label>		
+	<div class="editor-field">
 		<input type="text" 
 			data-showclosebtn="false" 
 			data-type="danger" 
