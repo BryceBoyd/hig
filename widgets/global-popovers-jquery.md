@@ -25,7 +25,8 @@ jsLib: jquery
 	data-placement="top" 
 	data-toggle="popover" 
 	class="ui-button ui-button-info ui-corner-all" 
-	type="button">
+	type="button"
+>
 	Info
 </button>	
 {% endhighlight %}
@@ -41,9 +42,17 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos %}				
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-type="success" data-title="Popover Success" data-placement="left" data-toggle="popover" class="ui-button ui-button-success ui-corner-all" type="button">
-			Success
-			</button>
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-type="success" 
+	data-title="Popover Success" 
+	data-placement="left" 
+	data-toggle="popover" 
+	class="ui-button ui-button-success ui-corner-all" 
+	type="button"
+>
+	Success
+</button>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -56,10 +65,17 @@ jsLib: jquery
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html linenos %}			
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-type="warning" data-title="Popover Warning" data-placement="right" data-toggle="popover" class="ui-button ui-button-warning ui-corner-all" type="button">
-				Warning
-			</button>
+{% highlight html linenos %}		
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-type="warning" 
+	data-title="Popover Warning" 
+	data-placement="right" 
+	data-toggle="popover" 
+	class="ui-button ui-button-warning ui-corner-all" type="button"
+>
+	Warning
+</button>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -73,9 +89,17 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos  %}			
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-type="danger" data-title="Popover Danger" data-placement="bottom" data-toggle="popover" class="ui-button ui-button-danger ui-corner-all" type="button">
-				Danger
-			</button>
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-type="danger" 
+	data-title="Popover Danger" 
+	data-placement="bottom" 
+	data-toggle="popover" 
+	class="ui-button ui-button-danger ui-corner-all" 
+	type="button"
+>
+	Danger
+</button>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -89,9 +113,15 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos  %}
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-placement="bottom" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
-				Default With No Title
-			</button>
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-placement="bottom" 
+	data-toggle="popover" 
+	class="ui-button ui-corner-all cnqr-muted" 
+	type="button"
+>
+	Default With No Title
+</button>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -105,16 +135,23 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos  %}			
-			<button data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-title="PopOver with title" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
-				Default With Title
-			</button>
+<button 
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." 
+	data-title="PopOver with title" 
+	data-placement="left" 
+	data-toggle="popover" 
+	class="ui-button ui-corner-all cnqr-muted" 
+	type="button"
+>
+	Default With Title
+</button>
 {% endhighlight %}	
 		</td>
 	</tr>
 
 	<tr>
 		<td>
-			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
+			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Element As Content" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
 				Element As Content
 			</button>
 <div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>			
@@ -122,9 +159,17 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos  %}			
-			<button data-width="400" data-content="#cnqr-hig-popup-content" data-title="Profile" data-placement="left" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
-				Element As Content
-			</button>
+<button 
+	data-width="400" 
+	data-content="#cnqr-hig-popup-content" 
+	data-title="Element As Content" 
+	data-placement="left" 
+	data-toggle="popover" 
+	class="ui-button ui-corner-all cnqr-muted" 
+	type="button"
+>
+	Element As Content
+</button>
 			
 <div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>			
 {% endhighlight %}				
@@ -140,9 +185,16 @@ jsLib: jquery
 		<td>
 			<h5>HTML</h5>
 {% highlight html linenos %}				
-			<button data-url="/UI/docs/Widgets/GetPopOverContent" data-placement="right" data-title="AJAX Content" data-toggle="popover" class="ui-button ui-corner-all cnqr-muted" type="button">
-				AJAX Content
-			</button>
+<button 
+	data-url="/UI/docs/Widgets/GetPopOverContent" 
+	data-placement="right" 
+	data-title="AJAX Content" 
+	data-toggle="popover" 
+	class="ui-button ui-corner-all cnqr-muted" 
+	type="button"
+>
+	AJAX Content
+</button>
 {% endhighlight %}				
 		</td>
 	</tr>
