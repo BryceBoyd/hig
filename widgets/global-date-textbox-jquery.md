@@ -23,11 +23,11 @@ jsLib: jquery
 <h5>.Net Helper</h5>
 {% highlight c# linenos%}
 	@Html.DateTextBox(
-		"calendar",				// Name
-		DateTime.Now,				// Optional DateTime value
-		null,					// Optional Group name string 
-		new { Class="form-control" },		// Optional htmlAttributes Object
-		new { minDate = 0}			// Optional datePickerOptions object
+		"calendar",                   // Name
+		DateTime.Now,                 // Optional DateTime value
+		null,                         // Optional Group name string 
+		new { Class="form-control" }, // Optional htmlAttributes Object
+		new { minDate = 0}            // Optional datePickerOptions object
 	)
 {% endhighlight %}
 		</td>
