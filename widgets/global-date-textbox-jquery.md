@@ -20,16 +20,16 @@ jsLib: jquery
 			)
 		</td>
 		<td>
-			<h5>.Net Helper</h5>
-			<pre class="brush: c-sharp; toolbar: false;">
-				@@Html.DateTextBox(
-					"calendar",							// Name
-					DateTime.Now,						// Optional DateTime value
-					null,								// Optional Group name string 
-					new { Class="form-control" },		// Optional htmlAttributes Object
-					new { minDate = 0}					// Optional datePickerOptions object
-				)
-			</pre>		
+<h5>.Net Helper</h5>
+{% highlight c# linenos%}
+	@@Html.DateTextBox(
+		"calendar",				// Name
+		DateTime.Now,				// Optional DateTime value
+		null,					// Optional Group name string 
+		new { Class="form-control" },		// Optional htmlAttributes Object
+		new { minDate = 0}			// Optional datePickerOptions object
+	)
+{% endhighlight %}
 		</td>
 	</tr>
 	<tr>
@@ -57,39 +57,39 @@ jsLib: jquery
 			</div>
 		</td>
 		<td>
-			<h5>.Net Helper</h5>
-			<pre class="brush: c-sharp; toolbar: false;">
-					@@Html.DateTextBox
-						// Should be unique (otherwise, add an id to htmlAttributes)
-						"@calendarName1",		
-						
-						// Start with today's date				
-						DateTime.Now,
-						
-						// This value is used to link calendars together				
-						"@linkedCalGroup",						
-						new { Class="form-control"},
-						
-						// groupMinDate determines the linked calendar's mininum begin
-						// number of days. In this demo, if you choose today's date in 	
-						// the first linked calendar, the second will begin 3 days later		
-						new { minDate = 0, groupMinDate = 3}	
-					)											
-																
-					@@Html.DateTextBox(
-						// Should be unique (otherwise, add an id to htmlAttributes)
-						"@calendarName2",		
-						
-						// Start with today's date					
-						DateTime.Now, 
-						
-						// This value is used to link calendars together
-						"@linkedCalGroup",
-						
-						// Add a custom class						
-						new { Class="form-control" }
-					)
-			</pre>
+<h5>.Net Helper</h5>
+{% highlight c# linenos%}
+	@@Html.DateTextBox
+		// Should be unique (otherwise, add an id to htmlAttributes)
+		"@calendarName1",		
+		
+		// Start with today's date				
+		DateTime.Now,
+		
+		// This value is used to link calendars together				
+		"@linkedCalGroup",						
+		new { Class="form-control"},
+		
+		// groupMinDate determines the linked calendar's mininum begin
+		// number of days. In this demo, if you choose today's date in 	
+		// the first linked calendar, the second will begin 3 days later		
+		new { minDate = 0, groupMinDate = 3}	
+	)											
+											
+	@@Html.DateTextBox(
+		// Should be unique (otherwise, add an id to htmlAttributes)
+		"@calendarName2",		
+		
+		// Start with today's date					
+		DateTime.Now, 
+		
+		// This value is used to link calendars together
+		"@linkedCalGroup",
+		
+		// Add a custom class						
+		new { Class="form-control" }
+	)
+{% endhighlight %}
 		</td>
 	</tr>
 </table>
