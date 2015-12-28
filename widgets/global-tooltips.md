@@ -1,6 +1,6 @@
 ---
 layout: reference
-title: Tooltips
+title: Global - Tooltips
 ---
 
 <table class="reporttable">
