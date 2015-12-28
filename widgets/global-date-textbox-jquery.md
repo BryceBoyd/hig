@@ -95,7 +95,9 @@ jsLib: jquery
 </table>
 
 ### Accessibilty ###
+
 You can use keyboard shortcuts to drive the datepicker:
+
 * **page up/down** - previous/next month
 * **ctrl+page up/down** - previous/next year
 * **ctrl+home** - current month or open when closed
