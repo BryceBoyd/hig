@@ -26,17 +26,17 @@ title: Global - Tooltips
 <div class="divcell">
   <span class="cnqr-show">
   	<label for="DepAirport">
-  		@@OTGetUserMessage("TravelTemplates", "DepartureCity")
+  		@OTGetUserMessage("TravelTemplates", "DepartureCity")
   	</label>
   
   	/**
-  	@@Html.ToolTip Parameters:
+  	@Html.ToolTip Parameters:
   	* String text               |   Tooltip text
   	* Object htmlAttributes     |   Optional html attributes
   	*/
-  	@@Html.ToolTip(OTGetUserMessage("Profile", "AirportSelectorHelp"))
+  	@Html.ToolTip(OTGetUserMessage("Profile", "AirportSelectorHelp"))
   </span>
-  @@Html.AirportAutoComplete("DepAirport", null, null,null,null,true)
+  @Html.AirportAutoComplete("DepAirport", null, null,null,null,true)
 </div>
 {% endhighlight %}
 		</td>
@@ -59,14 +59,14 @@ title: Global - Tooltips
 {% highlight html linenos%}
 <div class="divcell clearfix">
 	<p>
-		@@OTGetUserMessage("CompanyAdmin", "IfAEAUnavailable"):
+		@OTGetUserMessage("CompanyAdmin", "IfAEAUnavailable"):
 
 		/**
-		@@Html.ToolTip Parameters:
+		@Html.ToolTip Parameters:
 		* String text               |   Tooltip text
 		* Object htmlAttributes     |   Optional html attributes
 		*/
-		@@Html.ToolTip( 
+		@Html.ToolTip( 
 			OTGetUserMessage( "CompanyAdmin", "IfAEAUnavailableTip1") + htmlContent 
 		) 
 	</p>
