@@ -55,25 +55,25 @@ title: Global - Tooltips
 			</div>
 		</td>
 		<td>
-			<h5>HTML</h5>
-			{% highlight html linenos%}
-				<div class="divcell clearfix">
-					<p>
-						@@OTGetUserMessage("CompanyAdmin", "IfAEAUnavailable"):
+<h5>HTML</h5>
+{% highlight html linenos%}
+<div class="divcell clearfix">
+	<p>
+		@@OTGetUserMessage("CompanyAdmin", "IfAEAUnavailable"):
 
-						/**
-						@@Html.ToolTip Parameters:
-						* String text               |   Tooltip text
-						* Object htmlAttributes     |   Optional html attributes
-						*/
-						@@Html.ToolTip( 
-							OTGetUserMessage( "CompanyAdmin", "IfAEAUnavailableTip1") + htmlContent 
-						) 
-					</p>
-					<input id="example1" type="radio" value="USE_LLF" name="example1">
-					<label for="example1">Lowest Logical Fare</label>
-				</div>
-			{% endhighlight%}
+		/**
+		@@Html.ToolTip Parameters:
+		* String text               |   Tooltip text
+		* Object htmlAttributes     |   Optional html attributes
+		*/
+		@@Html.ToolTip( 
+			OTGetUserMessage( "CompanyAdmin", "IfAEAUnavailableTip1") + htmlContent 
+		) 
+	</p>
+	<input id="example1" type="radio" value="USE_LLF" name="example1">
+	<label for="example1">Lowest Logical Fare</label>
+</div>
+{% endhighlight%}
 		</td>
 	</tr>
 </table>
