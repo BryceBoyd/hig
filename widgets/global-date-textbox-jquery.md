@@ -1,4 +1,4 @@
 ---
-layout: reference
-title: Date TextBox
+layout: default
+jsLib: jquery
 ---
