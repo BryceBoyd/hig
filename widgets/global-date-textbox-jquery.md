@@ -22,7 +22,7 @@ jsLib: jquery
 		<td>
 <h5>.Net Helper</h5>
 {% highlight c# linenos%}
-	@@Html.DateTextBox(
+	@Html.DateTextBox(
 		"calendar",				// Name
 		DateTime.Now,				// Optional DateTime value
 		null,					// Optional Group name string 
@@ -59,7 +59,7 @@ jsLib: jquery
 		<td>
 <h5>.Net Helper</h5>
 {% highlight c# linenos%}
-	@@Html.DateTextBox
+	@Html.DateTextBox
 		// Should be unique (otherwise, add an id to htmlAttributes)
 		"@calendarName1",		
 		
@@ -94,15 +94,13 @@ jsLib: jquery
 	</tr>
 </table>
 
-<p>You can use keyboard shortcuts to drive the datepicker:</p>
-		<ul>
-			<li><b>page up/down</b> - previous/next month</li>
-			<li><b>ctrl+page up/down</b> - previous/next year</li>
-			<li><b>ctrl+home</b> - current month or open when closed</li>
-			<li><b>ctrl+left/right</b> - previous/next day</li>
-			<li><b>ctrl+up/down</b> - previous/next week</li>
-			<li><b>enter</b> - accept the selected date</li>
-			<li><b>ctrl+end</b> - close and erase the date</li>
-			<li><b>escape</b> - close the datepicker without selection</li>
-		</ul>
-	</div>
+### Accessibilty ###
+You can use keyboard shortcuts to drive the datepicker:
+* **page up/down** - previous/next month
+* **ctrl+page up/down** - previous/next year
+* **ctrl+home** - current month or open when closed
+* **ctrl+left/right** - previous/next day
+* **ctrl+up/down** - previous/next week
+* **enter** - accept the selected date
+* **ctrl+end** - close and erase the date
+* **escape** - close the datepicker without selection
