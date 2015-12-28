@@ -22,16 +22,15 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}			
-		<button type="button" 
-			data-toggle="popover"
-			data-placement="left"
-			data-title="Popover Left Title"
-			data-type="info"
-			data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-			Info
-		</button> 
-
+{% highlight html linenos %}
+<button type="button" 
+	data-toggle="popover"
+	data-placement="left"
+	data-title="Popover Left Title"
+	data-type="info"
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	Info
+</button> 
 {% endhighlight %}
 </td>
 	</tr>
@@ -51,16 +50,16 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}				
-		<button type="button" 
-			class="btn btn-success"
-			data-toggle="popover"
-			data-placement="bottom"
-			data-title="Popover Success"
-			data-type="success"
-			data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-			Success
-		</button> 
+{% highlight html linenos %}
+<button type="button" 
+	class="btn btn-success"
+	data-toggle="popover"
+	data-placement="bottom"
+	data-title="Popover Success"
+	data-type="success"
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	Success
+</button> 
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -79,16 +78,16 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}
-		<button
-			class="btn btn-warning"
-			data-toggle="popover"
-			data-placement="top"
-			data-title="Popover Warning"
-			data-type="warning"
-			data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-			Warning
-		</button> 
+{% highlight html linenos %}
+<button
+	class="btn btn-warning"
+	data-toggle="popover"
+	data-placement="top"
+	data-title="Popover Warning"
+	data-type="warning"
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	Warning
+</button> 
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -107,16 +106,16 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}			
-		<button
-			class="btn btn-danger"
-			data-toggle="popover"
-			data-placement="right"
-			data-title="Popover Danger"
-			data-type="danger"
-			data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
-			Danger
-		</button>
+{% highlight html linenos %}
+<button
+	class="btn btn-danger"
+	data-toggle="popover"
+	data-placement="right"
+	data-title="Popover Danger"
+	data-type="danger"
+	data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+	Danger
+</button>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -135,15 +134,15 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}
-		<button type="button" 
-			class="btn btn-default cnqr-muted"
-			data-toggle="popover"
-			data-placement="left"
-			data-type="info"
-			data-content="No title">
-			Default With No Title
-		</button> 
+{% highlight html linenos %}
+<button type="button" 
+	class="btn btn-default cnqr-muted"
+	data-toggle="popover"
+	data-placement="left"
+	data-type="info"
+	data-content="No title">
+	Default With No Title
+</button> 
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -163,16 +162,16 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}
-		<button type="button" 
-			class="btn btn-default cnqr-muted"
-			data-toggle="popover"
-			data-placement="left"
-			data-type="info"
-			data-content="#cnqr-hig-popup-content">
-			Element As Content
-		</button> 
-		<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>
+{% highlight html linenos %}
+<button type="button" 
+	class="btn btn-default cnqr-muted"
+	data-toggle="popover"
+	data-placement="left"
+	data-type="info"
+	data-content="#cnqr-hig-popup-content">
+	Element As Content
+</button> 
+<div id="cnqr-hig-popup-content" class="cnqr-hide">hello from cnqr-hig-popup-content!</div>
 {% endhighlight %}			
 		</td>
 	</tr>
@@ -190,15 +189,15 @@ jsLib: prototypejs
 		</td>
 		<td>
 			<h5>HTML</h5>
-{% highlight html %}
-		<button type="button" 
-			class="btn btn-default cnqr-muted"
-			data-toggle="popover"
-			data-placement="left"
-			data-type="info"
-			data-url="/UI/docs/Widgets/GetPopOverContent">
-			AJAX Content
-		</button> 
+{% highlight html linenos %}
+<button type="button" 
+	class="btn btn-default cnqr-muted"
+	data-toggle="popover"
+	data-placement="left"
+	data-type="info"
+	data-url="/UI/docs/Widgets/GetPopOverContent">
+	AJAX Content
+</button> 
 {% endhighlight %}			
 		</td>
 	</tr>
